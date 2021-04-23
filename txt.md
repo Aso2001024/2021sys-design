@@ -1,6 +1,6 @@
-'''uml
+```uml
 @startuml
-Alice -> Bob; Repuest
+Alice -> Bob; Request
 Bob --> Alice; Response
-@end
-'''
+@enduml
+```
