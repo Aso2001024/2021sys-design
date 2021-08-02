@@ -5,7 +5,7 @@
 
 # DBテーブルカラム詳細一覧
 ##　データベース詳細
-### d_purchase
+### 購入テーブル(ｄ_purchase)
 |和名|属性名|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
 |オーダーID|order_id|bigint(20)|Y|Y|-|
@@ -14,7 +14,7 @@
 |総額|total_price|int(11)|-|Y|-|
 
 
-### d_purchase
+### 購入詳細テーブル(ｄ_purchase_detail)
 |和名|属性名|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
 |詳細ID|detail_id|bigint(20)|Y|Y|-|
