@@ -23,7 +23,7 @@
 |価格|price|int(11)|-|Y|-|
 |数量|num|int(11)|-|Y|-|
 
-### m_customers
+### 顧客マスタ (m_customers)
 |和名|属性名|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
 |顧客コード|custmer_code|varchar(50)|Y|Y|-|
@@ -36,14 +36,14 @@
 |登録日|reg_date|date|-|Y|-|
 
 
-### m_items
+### 商品マスタ(m_items）
 |和名|属性名|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
 |カテゴリ|category_id|int(11)|Y|Y|-|
 |氏名|name|varchar(20)|-|Y|-|
 |登録日|reg_date|date|-|Y|-|
 
-### m_category
+### カテゴリマスタ（m_category）
 |和名|属性名|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
 |商品コード|item_code|int(11)|Y|Y|-|
